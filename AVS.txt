@@ -1,0 +1,10 @@
+Hooks
+- Para estandarizar la estructura de los compononente teniendo aquellos que tienen estado definidos como class
+y los que no como function. React agrega los hooks para poder definir todos los componentes como functions y se utilizan los hooks para manejar estado
+
+useState() -> cambiar estado
+useEffect(func, [vars]) -> se le pasa una función que se ejecuta ante el cambio de algun atributo del componente definido en el segundo parametro.
+
+
+Cada componente se maneja de manera independiente y se renderiza a si mismo.
+
