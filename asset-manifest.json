@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/utnfullstack-m5-u3/static/css/main.06092c24.chunk.css",
+    "main.js": "/utnfullstack-m5-u3/static/js/main.cddaa36e.chunk.js",
+    "main.js.map": "/utnfullstack-m5-u3/static/js/main.cddaa36e.chunk.js.map",
+    "runtime-main.js": "/utnfullstack-m5-u3/static/js/runtime-main.7bc0accd.js",
+    "runtime-main.js.map": "/utnfullstack-m5-u3/static/js/runtime-main.7bc0accd.js.map",
+    "static/js/2.a66b6f9b.chunk.js": "/utnfullstack-m5-u3/static/js/2.a66b6f9b.chunk.js",
+    "static/js/2.a66b6f9b.chunk.js.map": "/utnfullstack-m5-u3/static/js/2.a66b6f9b.chunk.js.map",
+    "static/js/3.8309156e.chunk.js": "/utnfullstack-m5-u3/static/js/3.8309156e.chunk.js",
+    "static/js/3.8309156e.chunk.js.map": "/utnfullstack-m5-u3/static/js/3.8309156e.chunk.js.map",
+    "index.html": "/utnfullstack-m5-u3/index.html",
+    "static/css/main.06092c24.chunk.css.map": "/utnfullstack-m5-u3/static/css/main.06092c24.chunk.css.map",
+    "static/js/2.a66b6f9b.chunk.js.LICENSE.txt": "/utnfullstack-m5-u3/static/js/2.a66b6f9b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bc0accd.js",
+    "static/js/2.a66b6f9b.chunk.js",
+    "static/css/main.06092c24.chunk.css",
+    "static/js/main.cddaa36e.chunk.js"
+  ]
+}
