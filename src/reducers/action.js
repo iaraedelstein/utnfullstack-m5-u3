@@ -9,7 +9,9 @@ export default function reducer(state = estadoInicial, action) {
         numero: state.numero + 1,
       };
     case 'DECREMENTAR':
-      return {};
+      return {
+        numero: state.numero - 1,
+      };
     case 'RESET':
       return {
         numero: 0,
