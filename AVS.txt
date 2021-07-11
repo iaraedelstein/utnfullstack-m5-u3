@@ -8,3 +8,18 @@ useEffect(func, [vars]) -> se le pasa una función que se ejecuta ante el cambio
 
 Cada componente se maneja de manera independiente y se renderiza a si mismo.
 
+React-redux
+Lo que permite esto es mantener variables globales y no tener que enviar variables de un componente a otro en todo el arbol
+De esta forma si un componente modifica algo el otro se va a enterar con redux
+
+Hay tres pilares en esta metodologia:
+1. Las variables que vas a usar
+2. Actualizaciones que vas a hacer = Dispatch
+3. Donde se almacenan esos valores = Store 
+
+Armar archivo que tenga funcion createStore(function) 
+La function es la que va a actualizar la variable global
+Es necesario que el componente Provider englobe a toda la app para definir el mismo store a todos los componente de la app
+Para usar las variables globales el redux disponibiliza dos hooks
+    const nombre = useSelector((state) => state.nombre) enlaza las variables globales con una variable local
+    useDispatch() llama a la funcion de actualizar y le podes pasar un objeto a esa función con las variables que necesites

@@ -3,7 +3,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import './style.css';
 
 export default function Contador() {
+  // agrego la variable global como variable local
   const contador = useSelector((state) => state.numero);
+  // defino
   const dispatch = useDispatch();
 
   const [nombre, setNombre] = useState('Iara');
@@ -11,7 +13,6 @@ export default function Contador() {
     const newName = e.target.value;
     setNombre(newName);
   };
-
   useEffect(() => {
     console.log('Entró a useEffect');
     setNombre(nombre.toUpperCase());
